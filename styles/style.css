@@ -16,6 +16,100 @@
   background-color: #f2f2f2;
   /* parameters for the header section */
 }
+.block{
+ 
+  width: 143px;
+  height: 32px;
+}
+
+.logo_place_header{
+  padding:  32px 64px;
+  background-image: url(../images/logo_place_header.png);
+  background-size: 143px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.techniques{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-bottom: 70px;
+}
+.cards{
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item{
+  width: 240px;
+  
+}
+.image img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 43px 40px;
+}
+.cards_title{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
+.description{
+  line-height: 23px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 16px;
+}
+.oakley{
+  background-color: #f2f2f2;
+
+}
+.oakley .two-columns{
+  background-color: #f2f2f2;
+  padding-bottom: 300px;
+
+}
+.feynman{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+.feynman .title{
+  width: 775px;
+  position: relative;
+  bottom: 250px;
+  right: 20px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 100px;
+  font-weight: 600;
+}
+.feynman .subtitle{
+  position: relative;
+  line-height: 51px;
+  font-size: 36px;
+  margin-top: 70px;
+  bottom: 330px;
+
+  margin: 0 auto;
+}
+.feynman .link {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+}
 .title{
   display: flex;
   justify-content: flex-end;
@@ -151,4 +245,18 @@ span{
   right: -210px; 
   top: 0;
 
+}
+.footer{
+  background-color: #1f1f1f;
+  padding: 10px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #fff;
+
+}
+.author{
+  padding-top: 20px;
+  width: 90%;
+  margin: 60px 0 40px 90px ;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
