@@ -1,0 +1,10 @@
+.logo_place_footer{
+  padding: 32px 64px;
+  background-image: url(../../../images/logo_place_footer.png);
+  background-size: 143px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  width: 143px;
+  height: 32px;
+  }
