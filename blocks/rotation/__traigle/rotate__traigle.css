@@ -1,0 +1,19 @@
+.kufman__triangle {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    overflow: visible;
+    transform: translate(-50%, -50%);
+    animation: rotate 20s linear infinite;
+    
+    }
+  @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
