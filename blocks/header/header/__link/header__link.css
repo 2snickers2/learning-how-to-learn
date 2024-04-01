@@ -1,0 +1,12 @@
+.header__link {
+  position: absolute;
+  bottom: 0;
+  margin-left: 64px;
+  text-decoration: none;
+  color: rgb(65, 180, 209);
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+.header__link:hover{
+  color: rgba(65, 180, 209, 0.41);
+}
