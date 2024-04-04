@@ -10,5 +10,5 @@
     transition: all 0.5s ease;
   }
 .feynman__link:hover{
-  color: rgba(65, 180, 209, 0.41);
+  opacity: 0.5;
 }
